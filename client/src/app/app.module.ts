@@ -13,7 +13,7 @@ import { ProductsComponent } from './products/products.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CheckOutComponent } from './check-out/check-out.component';
 import { LoginComponent } from './login/login.component';
-import { ShopOwnerProductsComponent } from './shop-owner/shop-owner-products/shop-owner-products.component';
+import { ShopOwnerdashboardComponent } from './shop-owner/shop-ownerdashboard/shop-ownerdashboard.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { ShopOwnerProductsComponent } from './shop-owner/shop-owner-products/sho
     ShoppingCartComponent,
     CheckOutComponent,
     LoginComponent,
-    ShopOwnerProductsComponent
+    ShopOwnerdashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +34,7 @@ import { ShopOwnerProductsComponent } from './shop-owner/shop-owner-products/sho
       { path: 'shopping-cart', component: ShoppingCartComponent },
       { path: 'check-out', component: CheckOutComponent },
       { path: 'login', component: LoginComponent },
-      { path: 'shopOwner/products', component: ShopOwnerProductsComponent }
+      { path: 'shopOwner/dashboard', component: ShopOwnerdashboardComponent }
     ])
     // AngularFireModule.initalizeApp(),
     // AppRoutingModule
