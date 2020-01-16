@@ -11,7 +11,6 @@ const SectionSchema = new mongoose.Schema({
     imageUrl: {
         type: String
     },
-
     linkUrl: {
         type: String
     },

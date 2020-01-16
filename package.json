@@ -4,13 +4,11 @@
   "description": "An ecommerce clothing website",
   "main": "server.js",
   "scripts": {
-    "angular": "ng serve --prefix clint",
+    "angular": "cd client && ng serve --open ",
     "start": "cross-env NODE_ENV=production node server",
     "start_cross": "cross-env NODE_ENV=production node server",
     "start_dev": "node server",
-    "dev": "concurrently \"npm run start_dev\" \"npm run angular\"",
-    "client": "npm start --prefix client",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "dev": "concurrently \"npm run start_dev\" \"npm run angular\""
   },
   "author": "The Ball Fondlers",
   "license": "MIT",
