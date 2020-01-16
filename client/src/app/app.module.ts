@@ -12,14 +12,12 @@ import {
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SerachBarComponent } from './serach-bar/serach-bar.component';
 import { from } from 'rxjs';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CheckOutComponent } from './check-out/check-out.component';
-import { ProfileComponent } from './profile/profile.component';
 import { LoginComponent } from './login/login.component';
 import { ShopOwnerdashboardComponent } from './shop-owner/shop-ownerdashboard/shop-ownerdashboard.component';
 import { SectionViewComponent } from './shop-owner/section-view/section-view.component';
@@ -29,13 +27,11 @@ import { SectionCardComponent } from './shop-owner/section-card/section-card.com
 @NgModule({
   declarations: [
     AppComponent,
-    SerachBarComponent,
     BsNavbarComponent,
     HomeComponent,
     ProductsComponent,
     ShoppingCartComponent,
     CheckOutComponent,
-    ProfileComponent,
     LoginComponent,
     ShopOwnerdashboardComponent,
     SectionViewComponent,
