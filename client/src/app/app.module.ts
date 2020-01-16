@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SerachBarComponent } from './serach-bar/serach-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SerachBarComponent
   ],
   imports: [
     BrowserModule,
