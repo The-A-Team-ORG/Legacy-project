@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-
+  name = 'Morgan Freeman'
+  email = 'contact@example.com';
+  phone = 5570089;
   constructor() { }
 
   ngOnInit() {
