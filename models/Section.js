@@ -11,9 +11,13 @@ const SectionSchema = new mongoose.Schema({
     imageUrl: {
         type: String
     },
+<<<<<<< HEAD
     // id: {
     //     type: [0, "id must be more than 0"]
     // },
+=======
+
+>>>>>>> a1bc0471325b7bdbcbcb0347abc035f0689501ef
     linkUrl: {
         type: String
     },
