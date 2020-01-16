@@ -21,6 +21,7 @@ import { CheckOutComponent } from './check-out/check-out.component';
 import { LoginComponent } from './login/login.component';
 import { ShopOwnerdashboardComponent } from './shop-owner/shop-ownerdashboard/shop-ownerdashboard.component';
 import { SectionViewComponent } from './shop-owner/section-view/section-view.component';
+import { SectionCardComponent } from './shop-owner/section-card/section-card.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { SectionViewComponent } from './shop-owner/section-view/section-view.com
     CheckOutComponent,
     LoginComponent,
     ShopOwnerdashboardComponent,
-    SectionViewComponent
+    SectionViewComponent,
+    SectionCardComponent
   ],
   imports: [
     BrowserModule,
